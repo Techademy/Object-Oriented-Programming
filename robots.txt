@@ -1,0 +1,20 @@
+User-agent: *
+
+Disallow: /my.php
+Disallow: /myaccount.php
+Disallow: /mypassword.php
+Disallow: /mycollection.php
+Disallow: /mywantlist.php
+Disallow: /myitems.php
+Disallow: /email.php
+Disallow: /templates/*
+Disallow: /pubcomment.php
+Disallow: /rate.php
+Disallow: /want.php
+Disallow: /have.php
+Disallow: /comment.php
+Disallow: /login.php
+Disallow: /logout.php
+Disallow: /fl.css
+Disallow: /removefromcollection.php
+Disallow: /administration

@@ -1,0 +1,9 @@
+SetEnvIfNoCase Referer "^http://www.fantasylibrary.net/" locally_linked=1
+SetEnvIfNoCase Referer "^http://www.fantasylibrary.net$" locally_linked=1
+SetEnvIfNoCase Referer "^http://fantasylibrary.net/" locally_linked=1
+SetEnvIfNoCase Referer "^http://fantasylibrary.net$" locally_linked=1
+SetEnvIfNoCase Referer "^$" locally_linked=1
+<FilesMatch "\.(gif|png|jpe?g)$">
+  Order Allow,Deny
+  Allow from env=locally_linked
+</FilesMatch>
